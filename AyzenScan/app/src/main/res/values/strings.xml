@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AYZEN SCAN</string>
+
+    <!-- Navigation -->
+    <string name="nav_scan">Scan</string>
+    <string name="nav_create">Create</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Scan -->
+    <string name="scan_hint">Point the camera at a QR code or barcode</string>
+    <string name="scan_torch">Flash</string>
+    <string name="scan_gallery">Gallery</string>
+    <string name="scan_batch">Batch</string>
+    <string name="scan_batch_count">Batch · %1$d</string>
+    <string name="scan_added">Added to history</string>
+    <string name="scan_no_code_in_image">No code found in this image</string>
+    <string name="scan_image_error">Could not read this image</string>
+    <string name="perm_title">Camera access needed</string>
+    <string name="perm_message">AYZEN SCAN needs the camera to read QR codes and barcodes. You can also scan from an image in your gallery.</string>
+    <string name="perm_grant">Allow camera</string>
+    <string name="perm_open_settings">Open app settings</string>
+
+    <!-- Content types -->
+    <string name="type_url">Link</string>
+    <string name="type_text">Text</string>
+    <string name="type_wifi">Wi-Fi</string>
+    <string name="type_email">Email</string>
+    <string name="type_phone">Phone</string>
+    <string name="type_sms">SMS</string>
+    <string name="type_geo">Location</string>
+    <string name="type_contact">Contact</string>
+    <string name="type_event">Event</string>
+    <string name="type_product">Product</string>
+    <string name="type_book">Book</string>
+    <string name="type_whatsapp">WhatsApp</string>
+    <string name="src_scanned">Scanned</string>
+    <string name="src_created">Created</string>
+
+    <!-- Actions -->
+    <string name="act_open_link">Open link</string>
+    <string name="act_search_web">Search the web</string>
+    <string name="act_connect_wifi">Connect to network</string>
+    <string name="act_copy_password">Copy password</string>
+    <string name="act_send_email">Send email</string>
+    <string name="act_call">Call</string>
+    <string name="act_send_sms">Send message</string>
+    <string name="act_open_map">Open in Maps</string>
+    <string name="act_add_contact">Add to contacts</string>
+    <string name="act_add_event">Add to calendar</string>
+    <string name="act_copy">Copy</string>
+    <string name="act_share">Share</string>
+    <string name="act_favorite">Favorite</string>
+    <string name="act_unfavorite">Unfavorite</string>
+    <string name="act_delete">Delete</string>
+
+    <!-- Result sheet -->
+    <string name="res_details">Details</string>
+    <string name="res_content">Content</string>
+    <string name="d_ssid">Network name</string>
+    <string name="d_password">Password</string>
+    <string name="d_security">Security</string>
+    <string name="d_name">Name</string>
+    <string name="d_phone">Phone</string>
+    <string name="d_email">Email</string>
+    <string name="d_org">Organization</string>
+    <string name="d_address">Address</string>
+    <string name="d_to">To</string>
+    <string name="d_subject">Subject</string>
+    <string name="d_message">Message</string>
+    <string name="d_latitude">Latitude</string>
+    <string name="d_longitude">Longitude</string>
+    <string name="d_title">Title</string>
+    <string name="d_location">Location</string>
+    <string name="d_description">Description</string>
+    <string name="d_start">Starts</string>
+    <string name="d_end">Ends</string>
+    <string name="copied">Copied</string>
+    <string name="deleted_toast">Deleted</string>
+    <string name="no_app_found">No app found to open this</string>
+    <string name="wifi_fallback">Password copied. Choose the network in Wi-Fi settings.</string>
+
+    <!-- Create -->
+    <string name="create_title">Create code</string>
+    <string name="create_subtitle">Choose a type and fill in the details</string>
+    <string name="create_generate">Generate</string>
+    <string name="create_required">Please fill in the required fields</string>
+    <string name="create_invalid">Some values are not valid</string>
+    <string name="create_failed">Could not generate the code. The content may be too long or unsupported.</string>
+    <string name="create_save">Save</string>
+    <string name="create_saved">Saved to Pictures/AYZEN SCAN</string>
+    <string name="create_save_failed">Could not save the image</string>
+    <string name="create_share">Share</string>
+    <string name="create_format">Format</string>
+    <string name="create_color">Color</string>
+    <string name="fmt_qr">QR Code</string>
+    <string name="fmt_barcode">Barcode</string>
+    <string name="f_text">Text</string>
+    <string name="f_url">Link (URL)</string>
+    <string name="f_ssid">Network name (SSID)</string>
+    <string name="f_password">Password</string>
+    <string name="f_name">Full name</string>
+    <string name="f_phone">Phone number</string>
+    <string name="f_phone_wa">Phone number with country code</string>
+    <string name="f_email">Email address</string>
+    <string name="f_org">Organization</string>
+    <string name="f_address">Address</string>
+    <string name="f_subject">Subject</string>
+    <string name="f_message">Message</string>
+    <string name="f_lat">Latitude</string>
+    <string name="f_lon">Longitude</string>
+    <string name="f_title">Event title</string>
+    <string name="f_location">Location</string>
+    <string name="f_description">Description</string>
+    <string name="f_start">Start (yyyy-MM-dd HH:mm)</string>
+    <string name="f_end">End (yyyy-MM-dd HH:mm, optional)</string>
+    <string name="f_hidden">Hidden network</string>
+    <string name="sec_wpa">WPA / WPA2 / WPA3</string>
+    <string name="sec_wep">WEP</string>
+    <string name="sec_none">No password</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_count">%1$d items</string>
+    <string name="history_search">Search history</string>
+    <string name="filter_all">All</string>
+    <string name="filter_scanned">Scanned</string>
+    <string name="filter_created">Created</string>
+    <string name="filter_favorites">Favorites</string>
+    <string name="history_empty">Nothing here yet</string>
+    <string name="history_empty_desc">Scanned and created codes will appear here</string>
+    <string name="history_deleted">Item deleted</string>
+    <string name="history_cleared">History cleared</string>
+    <string name="undo">Undo</string>
+    <string name="clear_all_title">Clear all history?</string>
+    <string name="clear_all_msg">All scanned and created items will be removed from this device.</string>
+    <string name="clear_all_confirm">Clear all</string>
+    <string name="cancel">Cancel</string>
+    <string name="history_export">Export history</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="set_appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="set_scanning">Scanning</string>
+    <string name="set_vibrate">Vibration</string>
+    <string name="set_vibrate_desc">Vibrate when a code is read</string>
+    <string name="set_beep">Beep sound</string>
+    <string name="set_beep_desc">Play a sound when a code is read</string>
+    <string name="set_save_history">Save scans to history</string>
+    <string name="set_save_history_desc">Keep every scanned code in the history list</string>
+    <string name="set_copy_scan">Copy on scan</string>
+    <string name="set_copy_scan_desc">Copy the content to the clipboard automatically</string>
+    <string name="set_data">Data</string>
+    <string name="set_clear">Clear history</string>
+    <string name="set_clear_desc">Delete every saved item</string>
+    <string name="set_about">About</string>
+    <string name="set_about_desc">Fast, private QR and barcode scanner. Everything stays on your device.</string>
+    <string name="set_version">Version %1$s</string>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AYZEN SCAN</string>
+
+    <!-- التنقل -->
+    <string name="nav_scan">مسح</string>
+    <string name="nav_create">إنشاء</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- المسح -->
+    <string name="scan_hint">وجّه الكاميرا نحو رمز QR أو باركود</string>
+    <string name="scan_torch">الفلاش</string>
+    <string name="scan_gallery">المعرض</string>
+    <string name="scan_batch">متتابع</string>
+    <string name="scan_batch_count">متتابع · %1$d</string>
+    <string name="scan_added">تمت الإضافة إلى السجل</string>
+    <string name="scan_no_code_in_image">لم يتم العثور على أي رمز في هذه الصورة</string>
+    <string name="scan_image_error">تعذّرت قراءة هذه الصورة</string>
+    <string name="perm_title">نحتاج إذن الكاميرا</string>
+    <string name="perm_message">يحتاج AYZEN SCAN إلى الكاميرا لقراءة رموز QR والباركود. يمكنك أيضاً المسح من صورة في المعرض.</string>
+    <string name="perm_grant">السماح بالكاميرا</string>
+    <string name="perm_open_settings">فتح إعدادات التطبيق</string>
+
+    <!-- أنواع المحتوى -->
+    <string name="type_url">رابط</string>
+    <string name="type_text">نص</string>
+    <string name="type_wifi">واي فاي</string>
+    <string name="type_email">بريد إلكتروني</string>
+    <string name="type_phone">هاتف</string>
+    <string name="type_sms">رسالة SMS</string>
+    <string name="type_geo">موقع</string>
+    <string name="type_contact">جهة اتصال</string>
+    <string name="type_event">حدث</string>
+    <string name="type_product">منتج</string>
+    <string name="type_book">كتاب</string>
+    <string name="type_whatsapp">واتساب</string>
+    <string name="src_scanned">ممسوح</string>
+    <string name="src_created">منشأ</string>
+
+    <!-- الإجراءات -->
+    <string name="act_open_link">فتح الرابط</string>
+    <string name="act_search_web">بحث في الإنترنت</string>
+    <string name="act_connect_wifi">الاتصال بالشبكة</string>
+    <string name="act_copy_password">نسخ كلمة المرور</string>
+    <string name="act_send_email">إرسال بريد</string>
+    <string name="act_call">اتصال</string>
+    <string name="act_send_sms">إرسال رسالة</string>
+    <string name="act_open_map">فتح في الخرائط</string>
+    <string name="act_add_contact">إضافة إلى جهات الاتصال</string>
+    <string name="act_add_event">إضافة إلى التقويم</string>
+    <string name="act_copy">نسخ</string>
+    <string name="act_share">مشاركة</string>
+    <string name="act_favorite">تفضيل</string>
+    <string name="act_unfavorite">إزالة التفضيل</string>
+    <string name="act_delete">حذف</string>
+
+    <!-- نافذة النتيجة -->
+    <string name="res_details">التفاصيل</string>
+    <string name="res_content">المحتوى</string>
+    <string name="d_ssid">اسم الشبكة</string>
+    <string name="d_password">كلمة المرور</string>
+    <string name="d_security">نوع الحماية</string>
+    <string name="d_name">الاسم</string>
+    <string name="d_phone">الهاتف</string>
+    <string name="d_email">البريد</string>
+    <string name="d_org">المؤسسة</string>
+    <string name="d_address">العنوان</string>
+    <string name="d_to">إلى</string>
+    <string name="d_subject">الموضوع</string>
+    <string name="d_message">الرسالة</string>
+    <string name="d_latitude">خط العرض</string>
+    <string name="d_longitude">خط الطول</string>
+    <string name="d_title">العنوان</string>
+    <string name="d_location">المكان</string>
+    <string name="d_description">الوصف</string>
+    <string name="d_start">البداية</string>
+    <string name="d_end">النهاية</string>
+    <string name="copied">تم النسخ</string>
+    <string name="deleted_toast">تم الحذف</string>
+    <string name="no_app_found">لا يوجد تطبيق لفتح هذا المحتوى</string>
+    <string name="wifi_fallback">تم نسخ كلمة المرور. اختر الشبكة من إعدادات الواي فاي.</string>
+
+    <!-- الإنشاء -->
+    <string name="create_title">إنشاء رمز</string>
+    <string name="create_subtitle">اختر النوع وأدخل التفاصيل</string>
+    <string name="create_generate">إنشاء الرمز</string>
+    <string name="create_required">يرجى ملء الحقول المطلوبة</string>
+    <string name="create_invalid">بعض القيم غير صحيحة</string>
+    <string name="create_failed">تعذّر إنشاء الرمز. قد يكون المحتوى طويلاً جداً أو غير مدعوم.</string>
+    <string name="create_save">حفظ</string>
+    <string name="create_saved">تم الحفظ في Pictures/AYZEN SCAN</string>
+    <string name="create_save_failed">تعذّر حفظ الصورة</string>
+    <string name="create_share">مشاركة</string>
+    <string name="create_format">الصيغة</string>
+    <string name="create_color">اللون</string>
+    <string name="fmt_qr">رمز QR</string>
+    <string name="fmt_barcode">باركود</string>
+    <string name="f_text">النص</string>
+    <string name="f_url">الرابط (URL)</string>
+    <string name="f_ssid">اسم الشبكة (SSID)</string>
+    <string name="f_password">كلمة المرور</string>
+    <string name="f_name">الاسم الكامل</string>
+    <string name="f_phone">رقم الهاتف</string>
+    <string name="f_phone_wa">رقم الهاتف مع رمز الدولة</string>
+    <string name="f_email">البريد الإلكتروني</string>
+    <string name="f_org">المؤسسة</string>
+    <string name="f_address">العنوان</string>
+    <string name="f_subject">الموضوع</string>
+    <string name="f_message">الرسالة</string>
+    <string name="f_lat">خط العرض</string>
+    <string name="f_lon">خط الطول</string>
+    <string name="f_title">عنوان الحدث</string>
+    <string name="f_location">المكان</string>
+    <string name="f_description">الوصف</string>
+    <string name="f_start">البداية (yyyy-MM-dd HH:mm)</string>
+    <string name="f_end">النهاية (yyyy-MM-dd HH:mm، اختياري)</string>
+    <string name="f_hidden">شبكة مخفية</string>
+    <string name="sec_wpa">WPA / WPA2 / WPA3</string>
+    <string name="sec_wep">WEP</string>
+    <string name="sec_none">بدون كلمة مرور</string>
+
+    <!-- السجل -->
+    <string name="history_title">السجل</string>
+    <string name="history_count">%1$d عنصر</string>
+    <string name="history_search">ابحث في السجل</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_scanned">الممسوحة</string>
+    <string name="filter_created">المنشأة</string>
+    <string name="filter_favorites">المفضلة</string>
+    <string name="history_empty">لا يوجد شيء هنا بعد</string>
+    <string name="history_empty_desc">ستظهر هنا الرموز التي تمسحها أو تنشئها</string>
+    <string name="history_deleted">تم حذف العنصر</string>
+    <string name="history_cleared">تم مسح السجل</string>
+    <string name="undo">تراجع</string>
+    <string name="clear_all_title">مسح كل السجل؟</string>
+    <string name="clear_all_msg">ستتم إزالة جميع العناصر الممسوحة والمنشأة من هذا الجهاز.</string>
+    <string name="clear_all_confirm">مسح الكل</string>
+    <string name="cancel">إلغاء</string>
+    <string name="history_export">تصدير السجل</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="set_appearance">المظهر</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="set_scanning">المسح</string>
+    <string name="set_vibrate">الاهتزاز</string>
+    <string name="set_vibrate_desc">اهتزاز عند قراءة الرمز</string>
+    <string name="set_beep">صوت التنبيه</string>
+    <string name="set_beep_desc">تشغيل صوت عند قراءة الرمز</string>
+    <string name="set_save_history">حفظ المسح في السجل</string>
+    <string name="set_save_history_desc">الاحتفاظ بكل رمز تم مسحه في قائمة السجل</string>
+    <string name="set_copy_scan">النسخ عند المسح</string>
+    <string name="set_copy_scan_desc">نسخ المحتوى إلى الحافظة تلقائياً</string>
+    <string name="set_data">البيانات</string>
+    <string name="set_clear">مسح السجل</string>
+    <string name="set_clear_desc">حذف جميع العناصر المحفوظة</string>
+    <string name="set_about">حول التطبيق</string>
+    <string name="set_about_desc">ماسح سريع وخاص لرموز QR والباركود. كل شيء يبقى على جهازك.</string>
+    <string name="set_version">الإصدار %1$s</string>
+</resources>
